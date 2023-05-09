@@ -1,0 +1,35 @@
+.header{
+    background: #DC0A2D;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    padding:20px 0px 0px 16px;
+}
+.headerTitle h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 106px;
+    height: 32px;
+    margin: 0!important;
+    color: #FFFFFF;
+
+
+}
+
+.headerTitle img{
+    width: 24px;
+    height: 24px; 
+    color: #FFFFFF;
+}
