@@ -1,5 +1,6 @@
 import React from 'react'
-import { OutlinedInput } from '@mui/material'
+import { IconButton, InputAdornment, OutlinedInput } from '@mui/material'
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 function SearchInput() {
     return (
@@ -16,9 +17,18 @@ function SearchInput() {
                     fontStyle: "normal",
                     fontWeight: "400",
                     fontSize: "10px",
-                    lineHeight: "16px",}}
-                  type="text"
+                    lineHeight: "16px",
+                    color: "#666666",}}
+                  type="search"
                   placeholder="Search"
+                  startAdornment={
+                    <InputAdornment>
+                      <IconButton>
+                        <SearchOutlinedIcon sx={{ color: "#DC0A2D", width:"11.8px", height:
+"11.78px",}}/>
+                      </IconButton>
+                    </InputAdornment>
+                  }
                   ></OutlinedInput>
       )
 }
