@@ -33,3 +33,14 @@
     height: 24px; 
     color: #FFFFFF;
 }
+
+.Search{
+    display:flex;
+    gap: 20px;
+}
+
+body{
+    background: #DC0A2D; 
+    width: 375px;
+    height: 667px;
+}
