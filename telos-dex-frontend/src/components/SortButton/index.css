@@ -1,0 +1,9 @@
+.SortButton{
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    border: #DC0A2D;
+    color: #DC0A2D;
+}
