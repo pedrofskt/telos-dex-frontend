@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import image from './Pokeball.png'
+import SearchInput from '../../components/SearchInput'
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
       <h1>Pokédex</h1>
       </div>
       <div>
+        <SearchInput/>
       </div> 
     </header>
   )
