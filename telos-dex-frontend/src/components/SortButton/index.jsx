@@ -1,8 +1,8 @@
 import React from 'react'
 import './index.css'
-function SortButton() {
+function SortButton({onClick}) {
   return (
-    <button className='SortButton'>
+    <button className='SortButton' onClick={onClick}>
         #
     </button>
   )

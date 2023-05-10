@@ -12,7 +12,7 @@ function SearchInput() {
                     width: "280px",
                     height: "32px",
                     padding: "8px 10px 8px 10px",
-                    marginLeft: "16px",
+                    marginLeft: "20px",
                     fontFamily: 'Poppins',
                     fontStyle: "normal",
                     fontWeight: "400",
@@ -24,8 +24,7 @@ function SearchInput() {
                   startAdornment={
                     <InputAdornment>
                       <IconButton>
-                        <SearchOutlinedIcon sx={{ color: "#DC0A2D", width:"11.8px", height:
-"11.78px",}}/>
+                        <SearchOutlinedIcon sx={{ color: "#DC0A2D", width:"11.8px", height:"11.78px",}}/>
                       </IconButton>
                     </InputAdornment>
                   }

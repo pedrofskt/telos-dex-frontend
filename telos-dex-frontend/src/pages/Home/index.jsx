@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './index.css'
 import image from './Pokeball.png'
 import SearchInput from '../../components/SearchInput'
@@ -6,10 +6,12 @@ import SortButton from '../../components/SortButton'
 import PokemonCard from '../../components/pokemonCard'
 import SortModal from '../../components/SortModal'
 import { useState } from 'react'
+import { PokemonContext } from '../../contexts/PokemonContext'
 
 
 function Home() {
   const [open, setOpen] = useState(false);
+
   return (
     <body>
     <header className='header'>
@@ -25,15 +27,16 @@ function Home() {
     <main>
       <div className='pokemonContainers'>
         <div className='pokemonCards'>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
-        <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+            <PokemonCard/>
+
         </div>
       </div>
     </main>

@@ -1,0 +1,205 @@
+.bodyPokemon{
+    background: #74CB48;
+    display:flex;
+    flex-direction: column;
+    justify-Content: space-between;
+}
+
+.HeaderPokemon{
+    display: flex;
+    flex-direction: row;
+    justify-Content: space-between;
+}
+.HeaderPokemon .HeaderPokemonContent{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 232px;
+    height: 32px;
+    color: #FFFFFF;
+    display:flex;
+    align-items: center;
+    padding: 30px;
+    gap: 14px;
+}
+.HeaderPokemon .HeaderPokemonContentId{
+    display:flex;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.PokemonSectionsInformations{
+    width: 362px;
+    height: 412px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: end;
+    justify-Content: center;
+}
+
+.PokeInformationsImg {
+    display: flex;
+    justify-Content: center;
+    align-items: start;
+    
+}
+
+.PokeInformationsImg img{
+    width: 200px;
+    height: 200px;
+}
+
+.PokemonType{
+    display: flex;
+    align-items: center;
+    justify-Content: center;
+    gap: 24px;
+}
+
+.PokemonType .type1 {
+    background: #74CB48;
+    border-radius: 10px;
+    width: 46px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.PokemonType .type2 {
+    background: #A43E9E;
+    border-radius: 10px;
+    width: 51px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.PokemonInformations h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #74CB48;
+}
+
+.weight h3{
+    display:flex;
+    align-items:center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #1D1D1D;
+    gap: 8px;
+    margin: 0!important;
+}
+.weight h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    margin: 0!important;
+}
+
+.weight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-Content: center;
+}
+
+.PokemonAbout{
+    display: flex;
+    gap: 24px;
+}
+
+.weightLast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    justify-Content: start;
+}
+
+.weightLast h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    margin: 0!important;
+}
+.weightLast h3{
+    display:flex;
+    align-items:center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #1D1D1D;
+    gap: 8px;
+    margin: 0!important;
+    padding-top: 5px;
+}
+
+.BaseStatsPokemon{
+    display: flex;
+    gap: 12px;
+    align-items:center;
+}
+
+.StatsName{
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    color: #74CB48;
+    margin: 0!important;
+}
+.StatsName h4{
+    margin: 0!important;
+}
+
+.StatsNumber h4{
+    margin: 0!important;
+}
+
+.StatsNumber {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #1D1D1D;
+    line-height: 16px;  
+}
+
+ .PokemonInformations{
+    margin-bottom: 96px;
+}
