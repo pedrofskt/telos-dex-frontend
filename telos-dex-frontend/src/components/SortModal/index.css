@@ -1,0 +1,56 @@
+.SortPoke{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 105px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.SortPoke input{
+    cursor: pointer;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid red;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SortPoke input:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+  }
+
+.SortPoke label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 41px;
+    height: 16px;
+    color: #1D1D1D;
+}
+
+.SortPoke input:checked:before{
+    opacity: 1;
+  }
+
+  .SortPokeCheckBox{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-Content: center;
+  }

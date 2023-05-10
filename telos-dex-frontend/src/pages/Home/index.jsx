@@ -4,9 +4,12 @@ import image from './Pokeball.png'
 import SearchInput from '../../components/SearchInput'
 import SortButton from '../../components/SortButton'
 import PokemonCard from '../../components/pokemonCard'
+import SortModal from '../../components/SortModal'
+import { useState } from 'react'
 
 
 function Home() {
+  const [open, setOpen] = useState(false);
   return (
     <body>
     <header className='header'>
@@ -16,7 +19,7 @@ function Home() {
       </div>
       <div className='SearchContainer'>
         <SearchInput/>
-        <SortButton/>
+        <SortButton onClick={() => {setOpen(true)}}/>
       </div> 
     </header>
     <main>
@@ -34,6 +37,7 @@ function Home() {
         </div>
       </div>
     </main>
+    <SortModal open={open} setOpen={setOpen} />
     </body>
   )
 }
