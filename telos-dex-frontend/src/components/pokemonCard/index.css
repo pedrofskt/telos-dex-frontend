@@ -1,0 +1,53 @@
+.Pokemoncard{
+    margin-top: 24px; 
+    margin-left: 9px; 
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 104px;
+    height: 108px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-Content: end;
+}
+.PokemonNumber h1{
+    display:flex;
+    justify-Content: end;
+    margin: 0!important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 4px;
+    }
+
+.PokemonNumber {
+    height: 64px;
+    width: 104px;
+}
+
+.Pokemon{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    width: 104px;
+    height: 44px;
+    background: #EFEFEF;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-Content: end;
+    align-items: center;
+}
+
+.Pokemon h2{
+    margin: 0!important;
+}
+
+.Pokemon img{
+    width: 72px;
+}
