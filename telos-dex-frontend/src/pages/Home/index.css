@@ -12,7 +12,7 @@
     align-items: center;
     padding: 0px;
     gap: 16px;
-    padding:20px 0px 0px 16px;
+    padding:20px 0px 0px 20px;
 }
 .headerTitle h1{
     font-family: 'Poppins';
@@ -34,7 +34,7 @@
     color: #FFFFFF;
 }
 
-.Search{
+.SearchContainer{
     display:flex;
     gap: 20px;
 }
@@ -43,4 +43,25 @@ body{
     background: #DC0A2D; 
     width: 375px;
     height: 667px;
+}
+
+main{
+    display: flex;
+    justify-Content: center;
+    align-items:center;
+    margin-top: 24px;
+}
+.pokemonContainers{
+    width: 362px;
+    height: 524px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+}
+
+.pokemonCards{
+    display: grid;
+    grid-template: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }

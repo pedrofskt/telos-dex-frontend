@@ -3,6 +3,7 @@ import './index.css'
 import image from './Pokeball.png'
 import SearchInput from '../../components/SearchInput'
 import SortButton from '../../components/SortButton'
+import PokemonCard from '../../components/pokemonCard'
 
 
 function Home() {
@@ -13,13 +14,25 @@ function Home() {
       <img src={image} alt="" />
       <h1>Pokédex</h1>
       </div>
-      <div className='Search'>
+      <div className='SearchContainer'>
         <SearchInput/>
         <SortButton/>
       </div> 
     </header>
     <main>
-      <h1>Teste</h1>
+      <div className='pokemonContainers'>
+        <div className='pokemonCards'>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        <PokemonCard/>
+        </div>
+      </div>
     </main>
     </body>
   )
