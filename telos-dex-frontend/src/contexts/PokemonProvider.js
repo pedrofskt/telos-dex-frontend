@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import axios from "axios"
 import { PokemonContext } from './PokemonContext';
 
@@ -6,7 +6,7 @@ export default function PokemonProvider({children}) {
     const [pokemons, setPokemons] = useState([])
     
     
-    useEffect(() => {
+    useMemo(() => {
         axios.get("https://pokeapi.co/api/v2/pokemon?limit=9").then(
             (response) =>{
                 response.data.results.map( async (pokemon) => {

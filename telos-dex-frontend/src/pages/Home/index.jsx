@@ -28,14 +28,6 @@ function Home() {
       <div className='pokemonContainers'>
         <div className='pokemonCards'>
             <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
-            <PokemonCard/>
 
         </div>
       </div>
